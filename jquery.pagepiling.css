@@ -127,7 +127,7 @@ html, body {
     left: 10px;
 }
 .pp-scrollable{
-    overflow-y: scroll;
+    overflow-y: scroll !important;
     overflow-x: hidden;
     height: 100%;
 }
