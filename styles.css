@@ -2,11 +2,11 @@
   background: linear-gradient(
     rgba(238, 232, 219, 0.0),
     rgba(65, 65, 65, 0.3)
-    ), url("images/twin_bg.jpg");
+    ), url("images/twin_bg.JPG");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  /*background-color: #f9f8f4;*/
+  background-color: #f9f8f4;
 }
 .header-image {
   max-width: 100%;
@@ -388,7 +388,7 @@ a {
   margin-right: auto;
   box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .02);
   background-color: #f6c9bb;
-  background: url("images/flamingjune.jpg");
+  background: url("images/flamingjune.JPG");
   background-size: cover;
   background-position: center;
   -moz-border-radius: 0px;
@@ -405,7 +405,7 @@ a {
   margin-right: auto;
   box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .02);
   background-color: #f6c9bb;
-  background: url("images/paperdress.jpg");
+  background: url("images/paperdress.JPG");
   background-size: cover;
   background-position: center;
   -moz-border-radius: 0px;
@@ -439,7 +439,7 @@ a {
   margin-right: auto;
   box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .02);
   background-color: #f6c9bb;
-  background: url("images/sherlock_sketch.jpg");
+  background: url("images/Sherlock_sketch.jpg");
   background-size: cover;
   background-position: center;
   -moz-border-radius: 0px;
