@@ -1,0 +1,598 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>Joanne Magbitang</title>
+  <link rel="shortcut icon" href="logo_site.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="javascript.js"></script>
+  <script type="text/javascript" src="jquery.pagepiling.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#pagepiling').pagepiling({
+        menu: null,
+        direction: 'vertical',
+        verticalCentered: true,
+        sectionsColor: [],
+        anchors: [],
+        scrollingSpeed: 700,
+        easing: 'swing',
+        loopBottom: false,
+        loopTop: false,
+        css3: true,
+        navigation: {
+          'textColor': '#000',
+          'bulletsColor': '#000',
+          'position': 'right',
+          'tooltips': ['HOME', 'WORK', 'ART', 'CONTACT']
+        },
+        normalScrollElements: null,
+        normalScrollElementTouchThreshold: 5,
+        touchSensitivity: 5,
+        keyboardScrolling: true,
+        sectionSelector: '.section',
+        animateAnchor: false,
+        //events
+        onLeave: function(index, nextIndex, direction) {},
+        afterLoad: function(anchorLink, index) {},
+        afterRender: function() {},
+      });
+    });
+  </script>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,900,100' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+  <div id="pagepiling">
+    <div class="section" id="home">
+      <center>
+        <img src="images/header_sig.png" class="header-image">
+      </center>
+      <br>
+      <!-- <div class="title-container">
+        <img src="weblogo.png" style="max-width: 60px; max-height: 60px; margin-bottom: 40px; padding: 5px; border: 2px solid white;">
+        <br>
+        <span style="font-weight: 900">Joanne</span>
+        <span style="font-weight: 100">Magbitang</span>
+      </div> -->
+      <!-- <div class="info-container">Creating great experiences through design. Currently studying Systems Design Engineering at the University of Waterloo. Sometimes I like to draw.</div> -->
+      <center>
+        <div class="work-line" style="color: white">
+          <div id="line" style="background: white"></div>W O R K
+          <br>
+          <div id="line" style="background: white; height: 70px"></div>
+        </div>
+      </center>
+    </div>
+
+    <div class="section" id="portfolio">
+      <div class="title-container">
+        <span style="font-weight: 900">WORK</span>
+        <span style="font-weight: 100"> &PROJECTS</span>
+      </div>
+      <div class="row">
+
+        <div class="col-md-4 col-sm-12">
+          <a href="#Modern-Workplace" class="portfolio-link" data-toggle="modal">
+            <div id="mw-port">
+              <div id="overlay">
+                <span class="glyphicon glyphicon-plus"></span>
+                <!-- <span id="port-title">The Modern Workplace</span> -->
+              </div>
+            </div>
+          </a>
+          <div class="port-caption">
+            <h4>Modern Workplace</h4>
+            <p>Transformation to a digital business</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <a href="#Bunny-Mojis" class="portfolio-link" data-toggle="modal">
+            <div id="moji-port">
+              <div id="overlay">
+                <span class="glyphicon glyphicon-plus"></span>
+                <!-- <span id="port-title">Icon Set</span> -->
+              </div>
+            </div>
+          </a>
+          <div class="port-caption">
+            <h4>Bunny Moji Set</h4>
+            <p>Mojis made using Sketch 3</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <a href="#Wearther" class="portfolio-link" data-toggle="modal">
+            <div id="wearther-port">
+              <div id="overlay">
+                <span class="glyphicon glyphicon-plus"></span>
+                <!-- <span id="port-title">Wearther</span> -->
+              </div>
+            </div>
+          </a>
+          <div class="port-caption">
+            <h4>Wearther App</h4>
+            <p>UX/UI Project on a weather-based app</p>
+          </div>
+        </div>
+      </div>
+      <!-- /row -->
+      <div style="height:70px"></div>
+      <center>
+        <div class="work-line">
+          <div id="line"></div>A R T
+          <br>
+          <div id="line" style="height: 70px"></div>
+        </div>
+      </center>
+    </div>
+
+    <div class="section" id="art">
+      <div class="title-container">
+        <span style="font-weight: 900">ART</span>
+        <span style="font-weight: 100"> &WIPS</span>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-3">
+          <div id="flaming-art">
+            <div id="overlay">
+              <span class="glyphicon glyphicon-plus"></span>
+              <!-- <span id="port-title">Icon Set</span> -->
+            </div>
+          </div>
+
+          <div class="art-caption">
+            <h4>Flaming June</h4>
+            <p>Oil painting</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+          <div id="paper-art">
+            <div id="overlay">
+              <span class="glyphicon glyphicon-plus"></span>
+              <!-- <span id="port-title">Icon Set</span> -->
+            </div>
+          </div>
+          <div class="art-caption">
+            <h4>Paper Wedding Dress</h4>
+            <p>Wearable dress made of paper</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+          <div id="digital-art">
+            <div id="overlay">
+              <span class="glyphicon glyphicon-plus"></span>
+              <!-- <span id="port-title">Icon Set</span> -->
+            </div>
+          </div>
+          <div class="art-caption">
+            <h4>Digital Painting</h4>
+            <p>WIP of a portrait</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-3">
+          <a href="#sketches" class="portfolio-link" data-toggle="modal">
+            <div id="sketches-art">
+              <div id="overlay">
+                <span class="glyphicon glyphicon-plus"></span>
+                <!-- <span id="port-title">Icon Set</span> -->
+              </div>
+            </div>
+          </a>
+          <div class="art-caption">
+            <h4>Sketches</h4>
+            <p>Sketches from 2014-2015</p>
+          </div>
+        </div>
+
+      </div>
+      <div style="height:70px"></div>
+      <center>
+        <div class="work-line">
+          <div id="line"></div>C O N T A C T
+          <br>
+          <div id="line" style="height: 70px"></div>
+        </div>
+      </center>
+    </div>
+
+    <div class="section" id="contact">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/profile-pastel.jpg" class="img-circle profile-img">
+        </div>
+        <div class="col-md-6 contact-container">
+          <p>Currently I am studying Systems Design Engineering at the University of Waterloo, looking for a design placement for the Spring term.</p>
+          <p>If you read this far, don't you think it's worth we get a coffee together? I'm kidding, I have a long streak of not having coffee. Feel free to contact me to know.</p>
+          <div class="social-container">
+            <ul>
+              <li><a href="mailto:jctmagbi@uwaterloo.ca">E-mail</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="http://instagram.com/saintpotter">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modals -->
+  <div class="portfolio-modal modal fade" id="Modern-Workplace" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>Modern Workplace</h2>
+              <span class="item-intro text-muted">Driving change management for Office 365 adoption through user experience design</span>
+              <br>
+              <br>
+              <br>
+              <!-- <img class="img-responsive img-centered" src="https://pixabay.com/static/uploads/photo/2015/11/27/21/01/drip-1066410_960_720.jpg" alt=""> -->
+              <h4>Role</h4>
+              <p>As a User Experience Analyst at Maple Leaf Foods in Fall 2015, I was in charge of designing promotional and training materials, change communications, and conducting user research for projects by our Modern Workplace team which, aimed to
+                have the entire company adopt a transformation to becoming a digital business coming from a traditional corporate setting.</p>
+              <span class="skill-pill">Change Management</span>
+              <span class="skill-pill">Social Media Marketing</span>
+              <span class="skill-pill">Photoshop CS6</span>
+              <span class="skill-pill">Branding</span>
+              <br>
+              <span class="skill-pill">Copy Writing</span>
+              <span class="skill-pill">Social Media Analytics</span>
+              <br>
+              <br>
+              <br>
+              <h4>Situation</h4>
+              <p>Maple Leaf Foods is a company that would fit right in to the old cookie-cutter homes we'd now call a traditional corporation. Working with paper copies of documents and having conversations through countless e-mail trees was not an uncommon
+                sight. However, recently they have made the decision to move from this mold and to eventually embrace the modern office culture. This had to start with changing the tools and software their users worked with. The Modern Workplace team
+                was then newly created to plan, handle, and execute these changes to the company.
+                <br>
+                <br>I worked on Yammer adoption, and the planning and execution of Office 365 Video, OneDrive for Business, and Office 2016—alongside the Modern Workplace team.</p>
+              <br>
+              <h4>Yammer: Enterprise Social Network Adoption</h4>
+              <p>Having numerous remote users and various locations in 3 continents, adopting an enterprise social network was seen as a solution to increase employee engagement and to ultimately let go of working in silos.
+                <br>
+                <br>Before coming in to Maple Leaf, Yammer had been deployed earlier to 3300 employees with an average of 165 members joining each month since 2015. With 40% of our target already on deck, our new goal was to have our users adopt the tool.
+                <br>
+                <br>Together with our change lead, we gamified our social enterprise and held the 30 Days of Yammer challenge which aimed to jumpstart actvity and increase sign-ups. Challenges included doing certain #YamTips to help users feel comfortable
+                using the tool, and sparking conversations about thoughts on the business, work, and lifestyle.
+                <br>
+                <br>Prizes were given every week and were based on the number and required challenges completed. I exported raw data from Yammer and analyzed them on Excel. In the end, we had more than 300 users participate in the #30DaysOfYammer.
+                <br>
+                <br>As a Yambassador for Maple Leaf Foods, I was also the community manager of our Yammer network providing social media assisitance—welcoming new members, guiding new groups to help them gauge their success and how to sustain activity moving
+                forward, and presenting Yammer training sessions to various functional groups who wanted to start working out loud in Yammer.
+                <br>
+                <br>I determined the success metrics through exported raw data of messages and users on a daily basis. We continuously discussed this through weekly scrums and meetings with Microsoft from time to time. If anything, I learned how to tolerate
+                and analyze the clutter that is called csv files.
+                <br>
+                <br>Consequently, I was also an admin of multiple groups, ensuring all questions are answered in a timely manner—(proving that ESNs are better than e-mail trees, really).
+                <br>
+                <br>My favourite group to own was our Yammer 101 group where I posted weekly #YamTips and #FollowFridays. Creating these hashtags or topics were necessary to easily help users track material they might need firsthand when signing up for Yammer.
+                To pass on this activity to the next admin, I created a design guideline including easy-to-use templates for the graphics I made.
+                <br>
+                <br>After my 4-month term, we reached our new high of 2265 posts in a month, averaging to 800 posts a month, with 70% of our employees signed up.</p>
+              <br>
+              <h4>OneDrive and Office 2016: Connecting everything</h4>
+              <p>If the whole transformation to a digital business was compared to the making of a body, Yammer would be the heart, and this duo would definitely be the brains behind all works.
+                <br>
+                <br>Coming from Office 2010 and the use of network drives, the implementation of both tools to work together was going to be a huge leap for most users. Considering the age demographic of the company and user research we conducted through
+                Yammer, not many were actively using or were even aware of similar cloud technologies outside of work.
+                <br>
+                <br>From designing change communications to moderating Office 365 groups on Yammer, more than 90% of our UAT testers were able to smoothly transition from old technologies to working in the cloud.
+                <br>
+                <br>The Office 365 duo is scheduled to be released en masse by Q1 of 2016. In advance, I've prepared posters to have company-wide poster campaigns for their new releases.</p>
+              <br>
+              <h4>Which tool for which job?</h4>
+              <p>During my stay in Maple Leaf Foods, this was a question I first asked and tried to delve into deeper through user research, meetings, info sessons, and promoting awareness on Yammer. I answered this question by consulting with functional
+                groups considering their use cases.
+                <br>
+                <br>I believe this was the key takeaway from all the shiny new releases of the latest and greatest—because this holds the answer that will drive the Modern Workplace behaviours they have been aiming for, in the future.
+                <br>
+                <br>This remains the important question that the Modern Workplace team will further define with their newly developed personas and use cases—so that when an answer is provided, the response is, "Crystal."</p>
+
+              <br>
+              <br>
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="Bunny-Mojis" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>Bunny Mojis</h2>
+              <span class="item-intro text-muted">Conquering the pen tool bunny by bunny</span>
+              <br>
+              <br>
+              <br>
+              <img class="img-responsive img-centered" src="images/BunnyMojis_Package.png" alt="">
+              <span class="skill-pill">Illustration</span>
+              <span class="skill-pill">Sketch 3</span>
+              <span class="skill-pill">Vector Art</span>
+              <br>
+              <br>
+              <br>
+              <h4>Vector art: The first time</h4>
+              <p>I've drawn digitally for a couple years but I was always afraid of trying to unravel the mystery of vector art, especially with the daunting pen tool that wasn't intuitive to control. But what happens when I zoom in to all my digital paintings?
+                PIXELS. Lots of them.
+                <br>
+                <br>So I decided to start small. "Ah, maybe I'll distort a circle." Great, I could now draw shrivelled beans.
+                <br>
+                <br>The bean then turned into a head. And then it had ears. And the rest was a whole hack of shapes—and that's really how I got by with vector art, disintegrating my imagined piece into shapes.</p>
+              <img class="img-responsive img-centered" src="images/BunnyMojis_process.png" alt="">
+              <p>This was also my first time trying out Sketch 3, which made vector art much easier to do. (Except for the fact masks didn't work exactly like I expected them to the first time because Photoshop habits die hard or are immortal).
+                <br>
+                <br>In the end, I created 16 bunny mojis and made ctrl-c ctrl-v my best friends.
+                <br>
+                <br>Vector art wasn't as bad as I thought, it just required a different thought process when creating a piece of art. Instead of strokes you think of shapes; instead of seamless blending, contrast. Definitely it was fulfilling to be able to
+                overcome an artistic obstacle from the past.</p>
+              <br>
+              <h4>Mojis?</h4>
+              <p>What I realized shortly after creating one bunny face was that if I zoomed it out just right about the size of an actual moji, all of them would look more or less the same. All that was distinct were the ears.
+                <br>
+                <br>Well, here's to better luck (or planning) next time.</p>
+              <img class="img-responsive img-centered" style="max-width: 150px;" src="images/BunnyMojis_tongue.png" alt="">
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-modal modal fade" id="Wearther" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>Wearther App Concept</h2>
+              <span class="item-intro text-muted">Is 10°C warm enough to wear a t-shirt?
+                <br>To be safe I will wear a cardigan and socks with my sandals.</span>
+              <br>
+              <br>
+              <br>
+              <img class="img-responsive img-centered" src="images/Wearther_homescreens.png" alt="">
+              <span class="skill-pill">UI/UX Design</span>
+              <span class="skill-pill">Mobile Design</span>
+              <span class="skill-pill">Sketch 3</span>
+              <span class="skill-pill">Photoshop</span>
+              <br>
+              <br>
+              <br>
+              <h4>What to wear—A seasonal problem</h4>
+              <p>Being somewhat new to Canada, I’ve always had the trouble of deciding what to wear when I go outside, now that I have three more seasons to worry about—spring, fall, and everyone’s favourite, winter. Although I’ve been in the country for
+                5 years, I still seem to forget that the Spring doesn’t always mean I can wear short floral dresses; or, that a 20° drop from our 40° summers warrants me to wear a turtleneck to match an Andy Warhol book.
+                <br>
+                <br>Thus, the concept of
+                <strong>
+                  <em>Wearther</em>
+                </strong> was born. My first thoughts on this app was to have it as a
+                <em>fashion-according-to-weather</em> diary to help with recall, then over time it has grown to be imagined as a convenient way to crowdsource outfit essentials for certain places and weather conditions around the world. And finally, the idea has become <em>Wearther</em> randomizing outfit essentials given any weather and location.
+                <br>
+                <br>When 'Feels like' is not enough to tell you what it really feels like, or you don't want to be uncomfortable or out of place from either underdressing or overdressing—
+                <em>Wearther</em> was to be right at your fingers.</p>
+              <br>
+              <h4>How it works</h4>
+              <p>I first imagined
+                <em>Wearther</em> to be a Lookbook or curated Instagram but based on weather, mining data from the user base itself. However, this posed the problem of having another Instagram, or another Lookbook—and one isn't supposed to reinvent to wheel,
+                or at least make a more complicated one.
+                <br>
+                <br>Instead I wanted to it to be smart—providing the user outfit suggestions, and then allowing them to save their choices to have the app provide better suggestions later.
+                <br>
+                <br>
+                <img class="img-responsive img-centered" src="images/Wearther_wireframe.jpg" alt=""> The new idea is that it will provide choices for different components of your outfit: Outerwear, Top, Bottom, Shoes, and Accessories. So depending on the location and time chosen by the user, a group of viable items are available in the
+                pool of randomized suggestions that the user can see to either save or discard.
+                <br>
+                <br>So the app must let the user:
+                <ol>
+                  <li>Check the weather at a chosen location and time.</li>
+                  <li>See outfit combinations given the weather conditions.</li>
+                  <li>Save outfit combinations or;</li>
+                  <li>Randomize another combination.</li>
+                  <li>See saved outfit combos.</li>
+                </ol>
+              </p>
+              <h4>UI Storyboard</h4>
+              <p>I decided that the important components in the home screen of this app were the location, temperature, weather conditions, the 5 outfit items, and the options to allow the user to either save or discard. Gradients are also provided depending
+                on the weather conditions presented by the chosen location. For redundance, I put the option for the user to change their location right at the home screen, or they can access their other saved locations through the menu.
+                <br>
+                <br>
+                <img class="img-responsive img-centered" src="images/Wearther_board1.png" alt=""> To further fulfill task 1, the user is able to swipe left to see weather conditions for a later time as indicated by the arrows beside the time. The time will always default to the current time the user is in, to the nearest half hour—although
+                outfit suggestions should not be based by hour, but by the average of temperatures and weather conditions predicted for that day.
+                <br>
+                <br>
+                <img class="img-responsive img-centered" src="images/Wearther_addloc.png" alt=""> To make adding a location easier, it can grab landmarks or even automatically detect where the user is using the location services button.
+                <br>
+                <br>
+                <img class="img-responsive img-centered" src="images/Wearther_saved.png" alt=""> The toughest challenge was to display the saved outfits by the user, which should include information such as temperature and weather conditions. I decided to sort the items by temperature (the temperature line can be scrolled up and
+                down depending on how many saved outfits there are).
+                <br>
+                <br>This makes more sense as a typical user would first want to know what they wore when it was warm or cold. The place was added in case the user saves from various locations. They can take note that a 10 degree outfit in Japan is not necessarily
+                the same as a 10 degree outfit they would wear in Vancouver (possibly due to weather conditions, acclimatization, etc.)</p>
+              <br>
+              <h4>Final thoughts</h4>
+              <p>Definitely there's room to make a better flow for displaying the saved shuffles, or maybe adding redundant information such as location on top of every screen the user has set it to—or even a better app name overall.
+                <br>
+                <br>But from a UI perspective, the most important thing this project taught me was not to take away from negative space too much. Besides the fact that in mobile many would fat-finger their phones, emphasizing on negative space is generally
+                easier to look at, hence more pleasing.
+                <br>
+                <br>Also, mobile design is a very good practice in becoming sensible in the amount of flat (or non-flat) design elements you have. Flat design has been popular for a couple years now, but through this project I've learned that a mix of both
+                flat and non-flat is needed especially with mobile, where everything is done with touch but of course most mobile devices lack the haptic feel.</p>
+              <br>
+              <br>
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Art Modals -->
+  <!-- <div class="portfolio-modal modal fade" id="Flaming-June" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Flaming June</h2>
+            <span class="item-intro text-muted">WIP of an Oil painting originally done by Frederic Leighton</span>
+            <br>
+            <br>
+            <br>
+            <img class="img-responsive img-centered" src="flamingjune.jpg" alt="">
+            <span class="skill-pill">Oil Painting</span>
+            <span class="skill-pill">Realism</span>
+            <span class="skill-pill">Figure drawing</span>
+            <br>
+            <br>
+            <br>
+            <h4>Trying oil painting for the first time</h4>
+              <p>I've painted with acrylics and watercolours before but oil opened new doors for me to achieve a much more desired realism in pictures due to the full control of transparency you have on colour.
+                <br><br>I started out with a small sketch using pencil and copic markers. I proceeded with the underpainting using a brick red.
+                <br><br>
+                <img class="img-responsive img-centered" src="flaming_copic.jpg" alt="">
+                <img class="img-responsive img-centered" src="flaming_under.jpg" alt="">
+              </p><br><br>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="Paper-dress" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2>Paper Wedding Dress</h2>
+            <span class="item-intro text-muted">Created with different types of paper on a sewn dress</span>
+            <br>
+            <br>
+            <br>
+            <img class="img-responsive img-centered" src="paperdress.jpg" alt="">
+            <span class="skill-pill">Fashion Design</span>
+            <span class="skill-pill">Paper Art</span>
+            <span class="skill-pill">Sewing</span>
+            <br>
+            <br>
+            <br>
+            <h4>Prompt: do anything</h4>
+              <p>For a final project, we were prompted to create anything so I created a paper dress since I've always been interested in paper art.
+              <br><br>To make it wearable, I've sewn the base of the dress first so it can zip from the back and attached paper pieces on it. I quilled strips of bristol paper into tight circles and teardrops, enclosing pearl beads to create the intricate pattern on the dress.
+            <br><br>The body was made with layers of washi and glassine paper.</p>
+
+                <img class="img-responsive img-centered" src="paperdress_back.jpg" alt="">
+              </p><br><br>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+  <div class="portfolio-modal modal fade" id="sketches" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>Sketches</h2>
+              <span class="item-intro text-muted">Various sketches and other art</span>
+              <br>
+              <br>
+              <br>
+              <img class="img-responsive img-centered" src="images/sherlock_sketch.jpg" alt="">
+              <!-- <span class="skill-pill">Figure Drawing</span>
+            <span class="skill-pill">Realism</span>
+            <span class="skill-pill">Abstract Art</span>
+            <span class="skill-pill">Illustration</span>
+            <br>
+            <br>
+            <br> -->
+              <img class="img-responsive img-centered" src="images/flower_dichotomy.jpg" alt="">
+              <img class="img-responsive img-centered" src="images/nishinoya.jpg" alt="">
+              <img class="img-responsive img-centered" src="images/womb.jpg" alt="">
+              <img class="img-responsive img-centered" src="images/loki.jpg" alt="">
+              <img class="img-responsive img-centered" src="images/fightclub.jpg" alt="">
+              <img class="img-responsive img-centered" src="images/owl.jpg" alt="">
+              <img class="img-responsive img-centered" src="images/boats.jpg" alt="">
+
+
+
+              <br>
+              <br>
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Close Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
