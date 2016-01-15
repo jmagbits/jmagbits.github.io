@@ -40,11 +40,7 @@ html, body {
     opacity: 1;
 }
 #pp-nav.right {
-<<<<<<< HEAD
-    right: 10px;
-=======
-    right: 15px;
->>>>>>> origin/master
+    right: 13px;
 }
 #pp-nav.left {
     left: 17px;
