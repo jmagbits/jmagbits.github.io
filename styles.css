@@ -448,13 +448,13 @@ a {
   overflow: hidden;
 }
 
-#Flaming-June:hover #overlay {
+#flaming-art:hover #overlay {
   opacity: 1;
   background-size: cover !important;
   /*background: rgba(255, 255, 255, 0.20);*/
 }
 
-#Paper-dress:hover #overlay {
+#paper-art:hover #overlay {
   opacity: 1;
   background-size: cover !important;
   /*background: rgba(255, 255, 255, 0.20);*/
