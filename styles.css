@@ -220,7 +220,8 @@ a {
   font-family: "Roboto Slab", serif;
   font-style: italic;
   font-size: 20px;
-  text-align: center;
+  text-align: center !important;
+  color: #c6c6c6;
 }
 /* /Portfolio Modal Close*/
 
