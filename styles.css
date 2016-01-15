@@ -448,11 +448,25 @@ a {
   overflow: hidden;
 }
 
+#Flaming-June:hover #overlay {
+  opacity: 1;
+  background-size: cover !important;
+  /*background: rgba(255, 255, 255, 0.20);*/
+}
+
+#Paper-dress:hover #overlay {
+  opacity: 1;
+  background-size: cover !important;
+  /*background: rgba(255, 255, 255, 0.20);*/
+}
+
 #sketches-art:hover #overlay {
   opacity: 1;
   background-size: cover !important;
   /*background: rgba(255, 255, 255, 0.20);*/
 }
+
+
 
 .art-caption {
   background-color: white;
