@@ -255,8 +255,9 @@ a {
   margin-right: 0;*/
   box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .02);
   background-color: #2a6d9e;
-  /*background: url("MW_port.png");
-  background-size: cover;*/
+  background: url("images/MW_preview.png");
+  background-size: cover;
+  background-position: bottom;
   -moz-border-radius: 0px;
   -webkit-border-radius: 3px 3px 0px 0px;
   border-radius: 3px 3px 0px 0px;
