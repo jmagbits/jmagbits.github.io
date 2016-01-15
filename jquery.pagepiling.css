@@ -40,10 +40,10 @@ html, body {
     opacity: 1;
 }
 #pp-nav.right {
-    right: 17px;
+    right: 10px;
 }
 #pp-nav.left {
-    left: 12px;
+    left: 17px;
 }
 .pp-section.pp-table{
     display: table;
