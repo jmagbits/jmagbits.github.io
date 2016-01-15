@@ -215,6 +215,13 @@ a {
   text-transform: uppercase;
   font-weight: 900 !important;
 }
+
+.quote{
+  font-family: "Roboto Slab", serif;
+  font-style: italic;
+  font-size: 20px;
+  text-align: center;
+}
 /* /Portfolio Modal Close*/
 
 .port-caption {
