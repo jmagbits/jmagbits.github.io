@@ -218,8 +218,9 @@ a {
 
 .quote{
   font-family: "Roboto Slab", serif;
-  font-style: italic;
-  font-size: 20px;
+  font-style: bold italic;
+  font-size: 16px;
+  line-height:200%;
   text-align: center !important;
   color: #c6c6c6;
 }
