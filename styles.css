@@ -90,8 +90,9 @@
 }
 #portfolio {
   background-color: #f9f8f4;
+  border-top: 20px solid #662844;
   /*border-top: 20px solid #6d475f;*/
-  border-top: 20px solid #2a6d9e;
+  /*border-top: 20px solid #2a6d9e;*/
   /*border-right: 20px solid #4482a5;
   border-left: 20px solid #4482a5;*/
   /*background-image: url("yammerbg.png");
