@@ -255,7 +255,7 @@ a {
   }
 }
 
-#mw-port {
+#grumblr-port {
   /*max-width: 300px;*/
   width: 300px;
   height: 270px;
@@ -265,7 +265,7 @@ a {
   margin-right: 0;*/
   box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, .02);
   background-color: #2a6d9e;
-  background: url("images/MW_preview.png");
+  background: url("images/Grumblr_preview.png");
   background-size: cover;
   background-position: bottom;
   -moz-border-radius: 0px;
@@ -274,7 +274,7 @@ a {
   overflow: hidden;
 }
 @media only screen and (max-width: 1000px) {
-  #mw-port, #wearther-port, .port-caption {
+  #grumblr-port, #wearther-port, .port-caption {
     margin: auto !important;
   }
 }
@@ -313,13 +313,14 @@ a {
   border-radius: 3px 3px 0px 0px;
   overflow: hidden;
 }
+
 @media only screen and (max-width: 992px) {
-  #mw-port, #moji-port, #wearther-port, .port-caption {
+  #grumblr-port, #moji-port, #wearther-port, .port-caption {
     max-width: 600px;
   }
 }
 @media only screen and (max-width: 650px) {
-  #mw-port, #moji-port, #wearther-port {
+  #grumblr-port, #moji-port, #wearther-port {
     max-width: 300px;
   }
 }
@@ -332,7 +333,7 @@ a {
   -moz-transition: opacity .5s ease;
   height: 270px;
 }
-#mw-port:hover #overlay {
+#grumblr-port:hover #overlay {
   opacity: 1;
   /*background: rgba(255, 255, 255, 0.20);*/
 }
