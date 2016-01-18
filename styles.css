@@ -1,8 +1,5 @@
 #home {
-  background: linear-gradient(
-    rgba(238, 232, 219, 0.0),
-    rgba(65, 65, 65, 0.3)
-    ), url("images/twin_bg.JPG");
+  background: linear-gradient( rgba(238, 232, 219, 0.0), rgba(65, 65, 65, 0.3)), url("images/twin_bg.JPG");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,13 +14,14 @@
     max-width: 350px;
   }
 }
-
 .img-gray {
-  filter: gray; /* IE6-9 */
-  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: gray;
+  /* IE6-9 */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
 }
-
 #line {
   width: 2px;
   height: 10px;
@@ -107,6 +105,7 @@ a {
 }
 
 /*Portfolio Modal Close*/
+
 .portfolio-modal .modal-content {
   padding: 100px 0;
   min-height: 100%;
@@ -207,7 +206,6 @@ a {
   color: white;
   padding: 4px 10px 4px 10px;
   line-height: 210%;
-  margin: 4px 4px 4px 4px;
 }
 .btn-primary {
   background-color: #6d475f !important;
@@ -217,16 +215,16 @@ a {
   text-transform: uppercase;
   font-weight: 900 !important;
 }
-
-.quote{
+.quote {
   font-family: "Roboto Slab", serif;
   font-style: italic;
   font-weight: 400;
   font-size: 16px;
-  line-height:200%;
+  line-height: 200%;
   text-align: center !important;
   color: #919191;
 }
+
 /* /Portfolio Modal Close*/
 
 .port-caption {
@@ -256,7 +254,6 @@ a {
     max-width: 300px !important;
   }
 }
-
 #grumblr-port {
   /*max-width: 300px;*/
   width: 300px;
@@ -315,7 +312,6 @@ a {
   border-radius: 3px 3px 0px 0px;
   overflow: hidden;
 }
-
 @media only screen and (max-width: 992px) {
   #grumblr-port, #moji-port, #wearther-port, .port-caption {
     max-width: 600px;
@@ -392,8 +388,6 @@ a {
   border-right: 20px solid #992f39;
   border-left: 20px solid #992f39;
 }
-
-
 #flaming-art {
   width: 240px;
   height: 270px;
@@ -410,7 +404,6 @@ a {
   border-radius: 3px 3px 0px 0px;
   overflow: hidden;
 }
-
 #paper-art {
   width: 240px;
   height: 270px;
@@ -427,7 +420,6 @@ a {
   border-radius: 3px 3px 0px 0px;
   overflow: hidden;
 }
-
 #digital-art {
   width: 240px;
   height: 270px;
@@ -444,7 +436,6 @@ a {
   border-radius: 3px 3px 0px 0px;
   overflow: hidden;
 }
-
 #sketches-art {
   width: 240px;
   height: 270px;
@@ -461,27 +452,21 @@ a {
   border-radius: 3px 3px 0px 0px;
   overflow: hidden;
 }
-
 #flaming-art:hover #overlay {
   opacity: 1;
   background-size: cover !important;
   /*background: rgba(255, 255, 255, 0.20);*/
 }
-
 #paper-art:hover #overlay {
   opacity: 1;
   background-size: cover !important;
   /*background: rgba(255, 255, 255, 0.20);*/
 }
-
 #sketches-art:hover #overlay {
   opacity: 1;
   background-size: cover !important;
   /*background: rgba(255, 255, 255, 0.20);*/
 }
-
-
-
 .art-caption {
   background-color: white;
   padding: 10px;
@@ -504,9 +489,6 @@ a {
   font-size: 12px;
   font-weight: 300;
 }
-
-
-
 #contact {
   background-color: #f9f8f4;
   border-bottom: 20px solid #4482a5;
